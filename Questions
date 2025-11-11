@@ -1,0 +1,292 @@
+Perfect 👍 Let’s get you fully ready for your Deep Learning practical viva tomorrow.
+We’ll go unit by unit, giving short, clear answers that are easy to remember and say orally — not long theory.
+
+
+---
+
+🧠 UNIT I – Single Layer Perceptron
+
+1. Perceptron:
+A simple neural network model with one neuron used for binary classification.
+
+
+2. Components:
+Inputs, weights, summation function, activation function, and output.
+
+
+3. Activation function:
+Decides whether a neuron should be activated or not (e.g., step, sigmoid, ReLU).
+
+
+4. Perceptron learning rule:
+Adjusts weights based on error:
+Δw = η × (target − output) × input
+
+
+5. Limitations:
+Can only classify linearly separable data; fails for non-linear patterns.
+
+
+6. Decision boundary:
+A line (or plane) that separates data classes.
+
+
+7. Linear separability:
+Achieved by adjusting weights so that classes are separated by a straight line.
+
+
+8. Failure for non-linear data:
+Because it has no hidden layer and can’t represent non-linear relationships.
+
+
+
+
+---
+
+🧩 UNIT II – Multilayer Perceptron (MLP)
+
+1. MLP:
+A neural network with one or more hidden layers between input and output.
+
+
+2. Learning algorithm:
+Backpropagation using the generalized delta rule.
+
+
+3. Hidden layer:
+Intermediate layer that extracts features from inputs.
+
+
+4. Role of activation functions:
+Introduce non-linearity so MLP can learn complex patterns.
+
+
+5. Generalized delta rule:
+Extends perceptron rule for multiple layers using gradient descent.
+
+
+6. Overfitting:
+Model fits training data too well but performs poorly on new data.
+
+
+7. Backpropagation minimization:
+Uses gradient descent to reduce the mean squared error by updating weights.
+
+
+8. Common activation functions:
+Sigmoid, Tanh, ReLU, Leaky ReLU, Softmax.
+
+
+
+
+---
+
+🧬 UNIT III – Fundamentals of Deep Neural Networks
+
+1. Deep Learning:
+Neural networks with many hidden layers to learn hierarchical features.
+
+
+2. Shallow network:
+Has one or two layers; learns simple patterns.
+
+
+3. Gradient descent:
+Optimization method to minimize error by updating weights iteratively.
+
+
+4. Vanishing gradients:
+Gradients become very small; weights stop updating during training.
+
+
+5. Solutions:
+Use ReLU, batch normalization, or residual connections.
+
+
+6. Dropout:
+Randomly turns off neurons during training to prevent overfitting.
+
+
+7. SGD vs RMSProp vs Adam:
+
+SGD: Simple gradient update.
+
+RMSProp: Adapts learning rate per parameter.
+
+Adam: Combines RMSProp + Momentum (most popular).
+
+
+
+8. Hyperparameter tuning:
+Adjusting parameters like learning rate, epochs, batch size for best performance.
+
+
+
+
+---
+
+🧭 UNIT IV – Unsupervised Deep Learning
+
+1. Unsupervised learning:
+Learns patterns from unlabeled data.
+
+
+2. Autoencoder:
+Neural network that compresses and reconstructs data.
+
+
+3. Boltzmann Machine:
+Stochastic model that learns probability distribution of inputs.
+
+
+4. Restricted Boltzmann Machine (RBM):
+Simplified Boltzmann Machine with visible and hidden layers only.
+
+
+5. Deep Belief Network (DBN):
+Stack of RBMs for deep feature learning.
+
+
+6. Applications of autoencoders:
+Noise removal, dimensionality reduction, image compression.
+
+
+7. Denoising autoencoder:
+Learns to reconstruct clean data from noisy input.
+
+
+8. Sparse autoencoder:
+Uses sparsity constraint so only few neurons activate at once (feature learning).
+
+
+
+
+---
+
+⚙️ UNIT V – Supervised Deep Learning
+
+1. CNN:
+Deep network for image processing using convolution and pooling layers.
+
+
+2. Kernel/Filter:
+Small matrix that slides over image to detect features (edges, textures).
+
+
+3. Pooling:
+Reduces spatial size — e.g., max pooling, average pooling.
+
+
+4. Stride & Padding:
+
+Stride: Step size of filter movement.
+
+Padding: Adds border pixels to keep output size same.
+
+
+
+5. RNN:
+Neural network for sequential data (time series, text).
+
+
+6. LSTM:
+Special RNN that overcomes vanishing gradients using memory cells.
+
+
+7. Encoder–Decoder architecture:
+Encoder compresses input → Decoder reconstructs output (used in seq2seq tasks).
+
+
+8. Transformers:
+Use attention mechanism; parallelize learning for NLP tasks (BERT, GPT).
+
+
+
+
+---
+
+🌍 UNIT VI – Applications of Deep Learning
+
+1. Applications:
+Image recognition, NLP, speech recognition, autonomous cars, healthcare.
+
+
+2. Object detection:
+Identifies and locates objects in images (YOLO, R-CNN).
+
+
+3. Sentiment analysis:
+Detects positive/negative emotion in text.
+
+
+4. Named Entity Recognition (NER):
+Identifies entities like names, dates, places in text.
+
+
+5. LSTM in NLP:
+Captures long-term dependencies in sentences (e.g., next word prediction).
+
+
+6. Speech recognition:
+Converts spoken words into text using RNNs or transformers.
+
+
+7. Transformers in NLP:
+Use self-attention to understand context (e.g., ChatGPT, BERT).
+
+
+8. CNNs in vision:
+Detects visual patterns — used in face, object, and scene recognition.
+
+
+
+
+---
+
+💻 LAB VIVA QUESTIONS
+
+1. IMDB dataset:
+Used for sentiment analysis of movie reviews (positive/negative).
+
+
+2. LSTM vs BiLSTM:
+BiLSTM processes input in both directions, improving context understanding.
+
+
+3. MNIST dataset:
+Handwritten digit dataset used for image classification testing.
+
+
+4. Autoencoder vs CNN:
+Autoencoder = reconstruct input; CNN = classify or detect features.
+
+
+5. Data normalization:
+Speeds up convergence and improves accuracy by scaling values.
+
+
+6. Loss function (classification):
+Categorical Cross-Entropy or Binary Cross-Entropy.
+
+
+7. Optimizer for text classification:
+Adam, because it adapts learning rates dynamically.
+
+
+8. Evaluation metrics:
+Accuracy, Precision, Recall, F1-score, Confusion Matrix.
+
+
+9. Dropout effect:
+Reduces overfitting by preventing neuron co-adaptation.
+
+
+10. LSTM vs BiLSTM comparison:
+To show how bidirectional context improves accuracy in NLP tasks.
+
+
+
+
+---
+
+Would you like me to make a PDF summary sheet (2 pages) with all these Q&A for quick revision tonight?
